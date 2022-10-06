@@ -1,0 +1,87 @@
+body{
+    background-color: rgb(65, 65, 65);
+}
+
+
+#juego{
+    background-color: grey;
+    height: 24rem;
+    width: 32rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    transform: translate(-5rem,10rem);
+    -webkit-transform: translate(-5rem,10rem);
+    -moz-transform: translate(-5rem,10rem);
+    -ms-transform: translate(-5rem,10rem);
+    -o-transform: translate(-5rem,10rem);
+    opacity: 1.5;
+}
+
+.cuadro{
+    height: 12rem;
+    width: 16rem;
+    display: flex;
+    opacity: 0.3;
+    transition: opacity 750ms;
+    -webkit-transition: opacity 750ms;
+    -moz-transition: opacity 750ms;
+    -ms-transition: opacity 750ms;
+    -o-transition: opacity 750ms;
+}
+
+
+#color-1{
+    background-color: red;
+    transform: translate(-1rem);
+    -webkit-transform: translate(-1rem);
+    -moz-transform: translate(-1rem);
+    -ms-transform: translate(-1rem);
+    -o-transform: translate(-1rem);
+    border-top-left-radius: 100%;
+}
+
+#color-2{
+    background-color: blue;
+    transform: translate(-1rem);
+    -webkit-transform: translate(-1rem);
+    -moz-transform: translate(-1rem);
+    -ms-transform: translate(-1rem);
+    -o-transform: translate(-1rem);
+    border-bottom-left-radius: 100%;
+}
+
+#color-3{
+    background-color: yellow;
+    transform: translate(-15.05rem);
+    -webkit-transform: translate(-15.05rem);
+    -moz-transform: translate(-15.05rem);
+    -ms-transform: translate(-15.05rem);
+    -o-transform: translate(-15.05rem);
+    border-top-right-radius: 100%;
+}
+
+#color-4{
+    background-color: green;
+    transform: translate(-15.05rem);
+    -webkit-transform: translate(-15.05rem);
+    -moz-transform: translate(-15.05rem);
+    -ms-transform: translate(-15.05rem);
+    -o-transform: translate(-15.05rem);
+    border-bottom-right-radius: 100%;
+}
+
+
+#boton-jugar{
+    height: 3.2rem;
+    width: 8rem;
+}
+
+#ronda-maxima{
+transform: translate(17rem,15rem);
+-webkit-transform: translate(17rem,15rem);
+-moz-transform: translate(17rem,15rem);
+-ms-transform: translate(17rem,15rem);
+-o-transform: translate(17rem,15rem);
+text-align: center;
+}

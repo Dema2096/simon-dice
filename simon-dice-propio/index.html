@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./main.css">
+    <link rel="shortcut icon" href="favicon/simon-dice.png" type="image/x-icon">
+    <title>Simon Dice</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5">
+                <div class="alert alert-primary" role="alert" id="barra-estado">
+                    Click en "Jugar" para empezar el juego
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="alert alert-success" role="alert" id="ronda">
+                    No se inicio el juego
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <button type="button" class="btn btn-danger" id="boton-jugar">Jugar</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="juego">
+        <div class="row">
+            <div class="col">
+                <div id="color-1" class="cuadro"></div>
+            </div>
+            <div class="col">
+                <div id="color-2" class="cuadro"></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div id="color-3" class="cuadro"></div>
+            </div>
+            <div class="col">
+                <div id="color-4" class="cuadro"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="col-md-4">
+            <div class="alert alert-dark" role="alert" id="ronda-maxima">
+                Ronda mas alta: 0
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="./main.js"></script>
+</body>
+</html>
